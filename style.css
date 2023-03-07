@@ -1,0 +1,96 @@
+body {
+	background-color: rgb(230,225,225);
+	color: rgb(105,109,125);
+	font-family: Helvetica;
+	font-size: 15px;
+	line-height: 1
+}
+
+h1 {
+	color: rgb(167,101,113);
+	font-size: 20px;
+	font-family: Lato, sans-serif; 
+	font-weight: 600;
+}
+
+h2, h3 {
+	color: rgb(167,101,113);
+	font-size: 18px;
+	font-family: Lato, sans-serif; 
+	font-weight: 600;
+}
+
+a{
+	color : rgb(202,148,162);
+	text-decoration: none;
+	transition: color 0.3s ease;
+	font-size: 16px;
+}
+a:hover {
+	color : #696D7D;
+	text-decoration: none;
+}
+
+#picture {
+	border-radius :50%;
+	width: 100px;
+	height: 100px;
+}
+
+
+
+.container {
+	width: 700px;
+	margin: 50px auto;
+}
+
+.card-white {
+	background: white;
+	margin: 20px auto;
+	padding: 40px;
+	border: 2px solid rgb(202,148,162);
+	border-radius: 3px;
+	box-shadow: rgba(0,0,0,0.1);
+	text-align: center;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.button-pink {
+	background-color:rgb(167,101,113);
+	color:white;
+	margin: 40px auto;
+	padding: 15px, 20px;
+	box-shadow: rgba(0,0,0,0.1);
+	border-radius: 3px;
+}
+.button-pink: hover{
+	background-color : #696D7D;
+	color : rgb(202,148,162);
+}
+.list-inline {
+	list-style : none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display : inline;
+	padding: 10px;
+}
+
+gris bleu #696D7D
+rose rgb(167,101,113)
+gris vert rgb(220,225,215)
+rose clair rgb(202,148,162)
